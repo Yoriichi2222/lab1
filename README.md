@@ -87,6 +87,7 @@ int main()
 ![Alt text](image-3.png)
 #####
 ссылки на используемые материалы
+
 1.https://evil-teacher.on.fleek.co/prog_pm/lab01/
 
 2.https://programforyou.ru/block-diagram-redactor
