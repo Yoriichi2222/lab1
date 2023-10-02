@@ -17,7 +17,8 @@ int main(void)
     if(b1 & 1 && b1 < b2 &&  b1 < b3){
         printf("наименьший параметр 1\n"); 
     }
-            else{
+
+    if(b1 % 2 == 0 && b1 < b2 &&  b1 < b3){
         printf("%.1f\n", x1);
     }
 
@@ -25,14 +26,16 @@ int main(void)
      if(b2 & 1 && b2 < b1 &&  b2 < b3){
         printf("наименьший параметр 2\n"); 
     }
-            else{
+    if(b2 % 2 == 0 && b2 < b1 &&  b2 < b3){
         printf("%.2f\n", x2);
     }
+
+
 
     if(b3 & 1 && b3 < b1 &&  b3 < b2){
         printf("наименьший параметр 3\n"); 
     }
-            else{
+    if(b3 % 2 == 0 && b3 < b1 &&  b3 < b2){
         printf("%.3f\n", x3);
     }
     return 0;
